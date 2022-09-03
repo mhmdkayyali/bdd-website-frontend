@@ -1,0 +1,26 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+}
+
+/* Nav Bar*/
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+
+  /* Utlities */
+
+.container {
+    padding: 0 12vh;
+    width: 100%;
+  }
