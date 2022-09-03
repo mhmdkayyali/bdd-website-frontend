@@ -69,9 +69,6 @@ img {
 .hero-slide-points > li{
   list-style: none;
   float: right;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   font-size: 25px;
   font-weight: bold;
   margin-right: 15px;
@@ -79,6 +76,56 @@ img {
 
 .hero-arrow-img{
   height: 8vh;
+}
+
+/* start foundations */
+
+.foundation-container{
+  background-color: #f5f5f5;
+}
+
+.five-foundations-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.single-foundation{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin: 0 1%;
+  padding: 2% 3% 7% 3%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.single-foundation1:hover{
+  background-color: rgb(225, 227, 255);
+}
+ 
+.single-foundation2:hover{
+  background-color: rgb(221, 222, 241);
+}
+
+.single-foundation3:hover{
+  background-color: rgb(211, 211, 255);
+}
+
+.single-foundation4:hover{
+  background-color: rgb(238, 238, 238);
+}
+
+.single-foundation5:hover{
+  background-color: rgb(255, 223, 234);
+}
+
+.imgf{
+  display: flex;
+  align-content: center;
+  width: 80%;
+  height: 20%;
 }
 
 /* Utlities */
@@ -108,4 +155,29 @@ img {
 @font-face {
   font-family: the-mix-semi-bold-plain-font;
   src: url(./fonts/TheMixSemiBold-Plain.otf);
+}
+
+.h3-font{
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: the-mix-black-font;
+}
+
+.h5-font{
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: the-mix-black-font;
+  padding: 10% 0;
+}
+
+.flex-align-center{
+  /* display: flex; */
+  /* align-items: center;
+  align-content: center; */
+  text-align: center;
+}
+
+.h3-margin{
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
